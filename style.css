@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#login_info {
+    max-width: 420px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#banner_img {
+    margin-top: 10px;
+    text-align: center; 
+}
+
+#banner_img img {
+    width: 25%;
+    margin: 0 auto 6px auto;
+    display: block; 
+}
+
+#login_info {
+    font-size: 14px;
+    text-align: center;
+}
+
+#login_info input[type="text"],
+#login_info input[type="password"] {
+    margin-bottom: 5px;
+    padding: 13px;
+    width: calc(100% - 30px); 
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+#login_info input[type="button"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 9px;
+    width: 100%; 
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#create_new input[type="button"] {
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#login_info a {
+    color: #1877f2; 
+    text-decoration: none;
+}
+
+#seperate {
+    text-align: center;
+    margin: 20px 5px 10px 5px;
+}
+
+#seperate::before,
+#seperate::after {
+    content: "";
+    display: inline-block;
+    width: 178px; 
+    border-top:  1px solid #ccc; 
+    margin: 10px 10px 3px 10px; 
+}
+
+#language {
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#language a {
+    color: lightslategray;
+    flex-basis: calc(50% - 5px); 
+    margin-bottom: 2px; 
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin: 0px;
+    font-size: smaller;
+}
+
+footer p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 7px; 
+    text-decoration: none;
+}
+
+#footer_links {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#footer_links a {
+    color: lightslategrey;
+    font-size: 10px; 
+    text-decoration: none;
+    margin: 0;
+}
+
+#more-content {
+    display: none;
+}
+
+#more-content a {
+    margin: 0 5px;
+    color: lightslategrey;
+    font-size: 10px; 
+    text-decoration: none;
+}
+
+
